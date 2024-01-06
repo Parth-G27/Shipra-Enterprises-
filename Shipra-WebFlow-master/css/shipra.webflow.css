@@ -1424,11 +1424,7 @@ li {
 .button2:hover{
   color: #da2b24;
   background-size: 100% 100%;
-  /* background-size: 100% 100%;
-  
-  background-color: #fff; */
-  
-  /* transition: .4s; */
+
 }
 
 .button2-text {
@@ -3122,56 +3118,56 @@ li {
   background-image: url('../images/care.webp');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 130px;
+  background-size: 80px;
 }
 
 .clients-logo-placeholder.hosp_03 {
   background-image: url('../images/smimer-logo.webp');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 200px;
+  background-size: 120px;
 }
 
 .clients-logo-placeholder.hosp_05 {
   background-image: url('../images/mahavir.webp');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 200px;
+  background-size: 160px;
 }
 
 .clients-logo-placeholder.hosp_04 {
   background-image: url('../images/wockhardt-Logo.webp');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 180px;
+  background-size: 150px;
 }
 
 .clients-logo-placeholder.hosp_06 {
   background-image: url('../images/orange-hospital.webp');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 150px;
+  background-size: 120px;
 }
 
 .clients-logo-placeholder.industry_01 {
   background-image: url('../images/VIMAL.webp');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 130px;
+  background-size: 100px;
 }
 
 .clients-logo-placeholder.industry_02 {
   background-image: url('../images/SHEETAL-GROUP.webp');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 100px;
+  background-size: 90px;
 }
 
 .clients-logo-placeholder.industry_03 {
   background-image: url('../images/collabera.webp');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 180px;
+  background-size: 150px;
 }
 
 .clients-logo-placeholder.industry_04 {
@@ -3192,20 +3188,20 @@ li {
   background-image: url('../images/HIMSON.webp');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 180px;
+  background-size: 120px;
 }
 
 .clients-logo-placeholder.industry_07 {
   background-image: url('../images/BLUE.webp');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 220px;
+  background-size: 120px;
 }
 .clients-logo-placeholder.industry_08 {
   background-image: url('../images/VIMAL.webp');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 100px;
+  background-size: 150px;
 }
 
 .clients-logo-placeholder.industry_09 {
@@ -3507,8 +3503,8 @@ li {
 }
 
 .div-block-22 {
-  height: 350px;
-  min-width: 600px;
+  height: 20rem;
+  min-width: 25rem;
   background-image: url('../images/Innovative-solutions.webp');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -3518,7 +3514,7 @@ li {
 }
 
 .paragraph-11 {
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 .div-block-23 {
@@ -4199,6 +4195,8 @@ li {
   }
 
   .div-block-22{
+    height: 200px;
+    min-width: 350px;
     margin-bottom: 30px;
     margin-right: 0; 
   }
@@ -5150,7 +5148,7 @@ li {
   }
 
   .page_banner.products, .page_banner.contact-us {
-    height: 100px;
+    height: 190px;
   }
 
   .bread-crums-text.text_color-black, .bread-crums-text---divider.text_color-black {
@@ -5407,8 +5405,11 @@ li {
     width: auto;
     font-size: 12px;
   }
+  .div-block-22{
+    min-width: 100px;
+  }
 
-  .div-block-22, .div-block-24, .div-block-27, .div-block-28 {
+  .div-block-24, .div-block-27, .div-block-28 {
     min-width: 300px;
   }
 

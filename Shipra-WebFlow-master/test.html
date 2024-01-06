@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .component {
+      display: none;
+    }
+    .component-spl {
+      display: block;
+    }
+  </style>
+  <title>Show/Hide Components</title>
+</head>
+<body>
+
+  <button onclick="showComponent(1)">Show Component 1</button>
+  <button onclick="showComponent(2)">Show Component 2</button>
+  <button onclick="showComponent(3)">Show Component 3</button>
+  <button onclick="showComponent(4)">Show Component 4</button>
+  <a href="javascript:void(0);" onclick="showComponent(5)">Show Component 5</a>
+  <button onclick="hideone()">hide one</button>
+
+  <div class="component-spl" id="component1">Component 1</div>
+  <div class="component" id="component2">Component 2</div>
+  <div class="component" id="component3">Component 3</div>
+  <div class="component" id="component4">Component 4</div>
+  <div class="component" id="component5">Component 5</div>
+
+  <script>
+    function hideone(){
+        document.getElementById('component1').style.display = 'none';
+
+    }
+    function showComponent(componentNumber) {
+      // Hide all components
+      hideAllComponents();
+
+      // Show the selected component
+      document.getElementById('component' + componentNumber).style.display = 'block';
+    }
+
+    function hideAllComponents() {
+      // Hide all components
+      var components = document.getElementsByClassName('component');
+      for (var i = 0; i < components.length; i++) {
+        components[i].style.display = 'none';
+      }
+
+      var components_spl = document.getElementsByClassName('component-spl');
+      for (var i = 0; i < components_spl.length; i++) {
+        components_spl[i].style.display = 'none';
+      }
+
+    }
+  </script>
+
+</body>
+</html>

@@ -2,4 +2,4 @@
 
 ## This repo contains Frontend and Email.js Only
 
-### Front-end Temp hosted on : https://659063583130559371a63289--grand-kashata-d6f313.netlify.app/
+### Front-end Temp hosted on : https://6596b5a88f29e103c1024276--cool-macaron-1a73d4.netlify.app/

@@ -1,3 +1,885 @@
+<<<<<<< HEAD
+/* .shipra-blog-page,
+.shipra-blog-page * {
+  box-sizing: border-box;
+}
+.shipra-blog-page {
+  background: #ffffff;
+  width: 1440px;
+  height: 951px;
+  position: relative;
+  
+}
+.footer {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-8 {
+  background: var(--primary-01, #da2b24);
+  width: 1440px;
+  height: 240px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.polygon-1 {
+  width: 711.87px;
+  height: 240.25px;
+  position: absolute;
+  left: 12px;
+  bottom: -0.25px;
+  overflow: visible;
+}
+.polygon-2 {
+  width: 711.87px;
+  height: 240.25px;
+  position: absolute;
+  left: -3px;
+  bottom: -0.25px;
+  overflow: visible;
+}
+.frame-31 {
+  display: flex;
+  flex-direction: row;
+  gap: 350px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: calc(50% - 548px);
+  bottom: 97.51px;
+}
+.logo-1 {
+  flex-shrink: 0;
+  width: 177px;
+  height: 44.76px;
+  position: relative;
+}
+.frame-2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 591.87px;
+  height: 42.73px;
+  position: relative;
+}
+.about-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Muli-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  position: relative;
+}
+.contact-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Muli-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  position: relative;
+}
+.products {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Muli-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  position: relative;
+}
+.blogs {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Muli-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  position: relative;
+}
+.navbar {
+  background: #ffffff;
+  padding: 22px 140px 22px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-15 {
+  display: flex;
+  flex-direction: row;
+  gap: 340px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-13 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  color: var(--primary-01, #da2b24);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 124%;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+}
+.about {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 124%;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+.products2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 124%;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+.blogs2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 124%;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+.primary-button-red {
+  flex-shrink: 0;
+  width: 165px;
+  height: 56px;
+  position: relative;
+}
+.rectangle-3 {
+  background: var(--primary-01, #da2b24);
+  border-radius: 4px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.primary-button {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font-family: "Muli-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 42.5px);
+  top: calc(50% - 12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-93 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 554.2px);
+  top: 362px;
+}
+.frame-92 {
+  display: flex;
+  flex-direction: row;
+  gap: 6.6px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 246.87px;
+  height: 231.02px;
+  position: relative;
+  box-shadow: 0px 6.6px 13.2px 0px rgba(0, 0, 0, 0.1);
+}
+.rectangle-61 {
+  background: var(--neutral-white, #ffffff);
+  border-style: solid;
+  border-color: var(--primary-01, #da2b24);
+  border-width: 1.98px;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.frame-91 {
+  display: flex;
+  flex-direction: column;
+  gap: 19.8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 207.92px;
+  height: 191.42px;
+  position: absolute;
+  left: calc(50% - 104.29px);
+  top: 19.8px;
+}
+.image {
+  flex-shrink: 0;
+  width: 187.46px;
+  height: 132.01px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle {
+  background: #dae3ea;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.icon-image-photo-24-px {
+  width: 47.52px;
+  height: 47.52px;
+  position: absolute;
+  left: calc(50% - 23.49px);
+  top: calc(50% - 23.77px);
+  overflow: visible;
+}
+.trends-2023-in-indian-construction-industry {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 10.561100959777832px;
+  line-height: 135%;
+  font-weight: 600;
+  position: relative;
+  width: 185.48px;
+}
+.frame-932 {
+  display: flex;
+  flex-direction: row;
+  gap: 6.6px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 246.87px;
+  height: 231.02px;
+  position: relative;
+  box-shadow: 0px 6.6px 13.2px 0px rgba(0, 0, 0, 0.1);
+}
+.rectangle-612 {
+  background: var(--neutral-white, #ffffff);
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.icon-image-photo-24-px3 {
+  width: 47.52px;
+  height: 47.52px;
+  position: absolute;
+  left: calc(50% - 23.49px);
+  top: calc(50% - 23.77px);
+  overflow: visible;
+}
+.benefits-of-construction-chemicals-for-new-construction-repairs-and-renovation {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 10.561100959777832px;
+  line-height: 135%;
+  font-weight: 600;
+  position: relative;
+  width: 185.48px;
+}
+.frame-94 {
+  display: flex;
+  flex-direction: row;
+  gap: 6.6px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 246.87px;
+  height: 231.02px;
+  position: relative;
+  box-shadow: 0px 6.6px 13.2px 0px rgba(0, 0, 0, 0.1);
+}
+.frame-94:hover {
+    border-color: #da2b24;
+    border-width: 2px;
+    border-style: solid;
+    transform: translateY(-10px);
+    transition: 0.3s;
+    box-shadow: 0px 6.6px 13.2px 0px rgba(0, 0, 0, 0.1);
+  }
+.icon-image-photo-24-px5 {
+  width: 47.52px;
+  height: 47.52px;
+  position: absolute;
+  left: calc(50% - 23.49px);
+  top: calc(50% - 23.77px);
+  overflow: visible;
+}
+.how-to-choose-your-construction-chemical-supplier {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 10.561100959777832px;
+  line-height: 135%;
+  font-weight: 600;
+  position: relative;
+  width: 186.8px;
+}
+.frame-95 {
+  display: flex;
+  flex-direction: row;
+  gap: 6.6px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 246.87px;
+  height: 231.02px;
+  position: relative;
+  box-shadow: 0px 6.6px 13.2px 0px rgba(0, 0, 0, 0.1);
+}
+.icon-image-photo-24-px7 {
+  width: 47.52px;
+  height: 47.52px;
+  position: absolute;
+  left: calc(50% - 23.49px);
+  top: calc(50% - 23.77px);
+  overflow: visible;
+}
+.frame-942 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 554.2px);
+  top: 771px;
+}
+.icon-image-photo-24-px9 {
+  width: 47.52px;
+  height: 47.52px;
+  position: absolute;
+  left: calc(50% - 23.49px);
+  top: calc(50% - 23.77px);
+  overflow: visible;
+}
+.icon-image-photo-24-px11 {
+  width: 47.52px;
+  height: 47.52px;
+  position: absolute;
+  left: calc(50% - 23.49px);
+  top: calc(50% - 23.77px);
+  overflow: visible;
+}
+.icon-image-photo-24-px13 {
+  width: 47.52px;
+  height: 47.52px;
+  position: absolute;
+  left: calc(50% - 23.49px);
+  top: calc(50% - 23.77px);
+  overflow: visible;
+}
+.icon-image-photo-24-px15 {
+  width: 47.52px;
+  height: 47.52px;
+  position: absolute;
+  left: calc(50% - 23.49px);
+  top: calc(50% - 23.77px);
+  overflow: visible;
+}
+.new-construction-solutions {
+  color: var(--neutral-black, #2d2e2d);
+  text-align: center;
+  font-family: var(
+    --sectionsubtitle-font-family,
+    "Poppins-SemiBold",
+    sans-serif
+  );
+  font-size: var(--sectionsubtitle-font-size, 20px);
+  line-height: var(--sectionsubtitle-line-height, 135%);
+  font-weight: var(--sectionsubtitle-font-weight, 600);
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 189px);
+  top: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.renovations-repairs-solutions {
+  color: var(--neutral-black, #2d2e2d);
+  text-align: center;
+  font-family: var(
+    --sectionsubtitle-font-family,
+    "Poppins-SemiBold",
+    sans-serif
+  );
+  font-size: var(--sectionsubtitle-font-size, 20px);
+  line-height: var(--sectionsubtitle-line-height, 135%);
+  font-weight: var(--sectionsubtitle-font-weight, 600);
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 213px);
+  top: 684px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-main-category-title {
+  color: #000000;
+  text-align: center;
+  font-family: var(--heading-02-font-family, "Poppins-Bold", sans-serif);
+  font-size: var(--heading-02-font-size, 36px);
+  line-height: var(--heading-02-line-height, 124%);
+  font-weight: var(--heading-02-font-weight, 700);
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 216px);
+  top: 190px;
+} */
+
+/* .shipra-blog-page {
+    box-sizing: border-box;
+  } */
+
+  .shipra-blog-page {
+    background: #ffffff;
+    /* width: 1240px; */
+    height: 1051px;
+    position: relative;
+    display: flex;
+    align-content: top;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    
+  }
+
+  .shipra-blog-page-2 {
+    background: #ffffff;
+    /* width: 1240px; */
+    /* height: 551px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    /* justify-content: center;
+    
+    text-align: center; */
+
+    /* align-items:start; */
+    
+  }
+
+.frame-cover{
+  display: none;
+}
+
+.frame-93 {
+
+    display: flex;
+    /* flex-direction:row; */
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 40px;
+    /* align-items: flex-start; */
+    justify-content: center;
+    /* position: relative; */
+    left: calc(50% - 554.2px);
+    /* top: 362px; */
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.frame-942 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    left: calc(50% - 554.2px);
+    /* top: 771px; */
+  }
+
+.frame-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: calc(50% - 554.2px);
+    top: 701px;
+  }
+
+.frame-94 {
+    display: flex;
+    flex-direction: row;
+    gap: 6.6px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 246.87px;
+    /* width: 48%; */
+    height: 231.02px;
+    position: relative;
+    box-shadow: 0px 6.6px 13.2px 0px rgba(0, 0, 0, 0.1);
+}
+.frame-94:hover {
+      border-color: #da2b24;
+      border-width: 2px;
+      border-style: solid;
+      transform: translateY(-10px);
+      transition: 0.3s;
+      box-shadow: 0px 6.6px 13.2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.frame-95 {
+  display: flex;
+  flex-direction: row;
+  gap: 6.6px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 380px;
+  /* width: 48%; */
+  height: 340px;
+  position: relative;
+  box-shadow: 0px 6.6px 13.2px 0px rgba(0, 0, 0, 0.1);
+}
+.frame-95:hover {
+    border-color: #da2b24;
+    border-width: 2px;
+    border-style: solid;
+    transform: translateY(-10px);
+    transition: 0.3s;
+    box-shadow: 0px 6.6px 13.2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.rectangle-612 {
+        background: var(--neutral-white, #ffffff);
+        align-self: stretch;
+        flex: 1;
+        position: relative;
+}
+
+.frame-91 {
+    display: flex;
+    flex-direction: column;
+    gap: 19.8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 207.92px;
+    height: 191.42px;
+    position: absolute;
+    left: calc(50% - 104.29px);
+    top: 19.8px;
+}
+
+.frame-99 {
+  display: flex;
+  flex-direction: column;
+  gap: 19.8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 360px;
+  height: 320px;
+  position: absolute;
+  /* left: calc(50% - 104.29px); */
+  /* top: 19.8px; */
+}
+
+.image {
+    flex-shrink: 0;
+    width: 187.46px;
+    height: 132.01px;
+    position: relative;
+    overflow: hidden;
+  }
+  .rectangle {
+    /* background: #dae3ea; */
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 110%;
+}
+
+.image0 {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  width: 320px;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle0 {
+  /* background: #dae3ea; */
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 110%;
+}
+
+.icon-image-photo-24-px15 {
+    width: 47.52px;
+    height: 47.52px;
+    position: absolute;
+    left: calc(50% - 23.49px);
+    top: calc(50% - 23.77px);
+    overflow: visible;
+  }
+
+  .trends-2023-in-indian-construction-industry {
+    color: #000000;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 10.561100959777832px;
+    line-height: 135%;
+    font-weight: 600;
+    position: relative;
+    width: 185.48px;
+  }
+
+  .how-to-choose-your-construction-chemical-supplier {
+    color: #000000;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 10.561100959777832px;
+    line-height: 135%;
+    font-weight: 600;
+    position: relative;
+    width: 186.8px;
+  }
+
+  .benefits-of-construction-chemicals-for-new-construction-repairs-and-renovation {
+    color: #000000;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 10.561100959777832px;
+    line-height: 135%;
+    font-weight: 600;
+    position: relative;
+    width: 185.48px;
+  }
+
+  .img-title {
+    color: #000000;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 0.85rem;
+    line-height: 135%;
+    font-weight: 600;
+    position: relative;
+    width: 100%;
+    text-transform: uppercase;
+  }
+
+
+
+  .new-construction-solutions {
+    color: var(--neutral-black, #2d2e2d);
+    text-align: center;
+    font-family: var(
+      --sectionsubtitle-font-family,
+      "Poppins-SemiBold",
+      sans-serif
+    );
+    font-size: var(--sectionsubtitle-font-size, 30px);
+    line-height: var(--sectionsubtitle-line-height, 135%);
+    font-weight: var(--sectionsubtitle-font-weight, 600);
+    text-transform: uppercase;
+    position: absolute;
+    /* left: calc(50% - 189px); */
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .renovations-repairs-solutions {
+    color: var(--neutral-black, #2d2e2d);
+    text-align: center;
+    font-family: var(
+      --sectionsubtitle-font-family,
+      "Poppins-SemiBold",
+      sans-serif
+    );
+    font-size: var(--sectionsubtitle-font-size, 30px);
+    line-height: var(--sectionsubtitle-line-height, 135%);
+    font-weight: var(--sectionsubtitle-font-weight, 600);
+    text-transform: uppercase;
+    position: absolute;
+    /* left: calc(50% - 213px); */
+    top: 684px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sub-title {
+    color: var(--neutral-black, #2d2e2d);
+    text-align: center;
+    font-family: var(
+      --sectionsubtitle-font-family,
+      "Poppins-SemiBold",
+      sans-serif
+    );
+    font-size: var(--sectionsubtitle-font-size, 20px);
+    line-height: var(--sectionsubtitle-line-height, 135%);
+    font-weight: var(--sectionsubtitle-font-weight, 600);
+    text-transform: uppercase;
+    position: relative;
+    /* left: calc(50% - 213px); */
+    top: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .sub-title-2 {
+    color: var(--neutral-black, #2d2e2d);
+    text-align: center;
+    font-family: var(
+      --sectionsubtitle-font-family,
+      "Poppins-SemiBold",
+      sans-serif
+    );
+    font-size: var(--sectionsubtitle-font-size, 20px);
+    line-height: var(--sectionsubtitle-line-height, 135%);
+    font-weight: var(--sectionsubtitle-font-weight, 600);
+    text-transform: uppercase;
+    position: relative;
+    /* left: calc(50% - 213px); */
+    /* top: 975px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+    
+  }
+
+  .submain-title{
+    color: var(--neutral-black, #2d2e2d);
+    text-align: center;
+    font-family: var(
+      --sectionsubtitle-font-family,
+      "Poppins-SemiBold",
+      sans-serif
+    );
+    font-size: var(--sectionsubtitle-font-size, 30px);
+    line-height: var(--sectionsubtitle-line-height, 135%);
+    font-weight: var(--sectionsubtitle-font-weight, 600);
+    text-transform: uppercase;
+    position: relative;
+    /* left: calc(50% - 213px); */
+    /* top: 275px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+
+  }
+
+
+  .main-title {
+    color: #000000;
+    text-align: center;
+    font-family: var(--heading-02-font-family, "Poppins-Bold", sans-serif);
+    font-size: var(--heading-02-font-size, 36px);
+    line-height: var(--heading-02-line-height, 124%);
+    font-weight: var(--heading-02-font-weight, 700);
+    text-transform: uppercase;
+    position: relative;
+    margin: 15px;
+    margin-top: 40px;
+    padding: 10px;
+    /* left: calc(50% - 216px); */
+    /* top: 100px; */
+  }
+
+  
+
+  .product-main-category-title {
+    color: #000000;
+    text-align: center;
+    font-family: var(--heading-02-font-family, "Poppins-Bold", sans-serif);
+    font-size: var(--heading-02-font-size, 36px);
+    line-height: var(--heading-02-line-height, 124%);
+    font-weight: var(--heading-02-font-weight, 700);
+    text-transform: uppercase;
+    position: absolute;
+    /* left: calc(50% - 216px); */
+    top: 100px;
+  }
+
+  /* @media (min-width: 768px) {
+    .frame-94 {
+      width: 23%;
+    }
+=======
 /* .shipra-blog-page,
 .shipra-blog-page * {
   box-sizing: border-box;
@@ -873,4 +1755,5 @@
     .frame-94 {
       width: 23%;
     }
+>>>>>>> d809fd083ae25a80f7f3fdcc6b6a77eda95be80b
   } */

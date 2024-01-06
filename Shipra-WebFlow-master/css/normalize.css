@@ -422,4 +422,76 @@ element.style {
 
 .space-20percent{
   padding-left: 20%;
+
 }
+
+.products-dropdown-cover{
+
+  position: sticky;
+  top: 0px;
+  background-color: #f8f8f8;
+  color: white;
+  padding-left: 20%;
+  /* padding: 10px; */
+  border-radius: 5px;
+  z-index: 1000;
+
+
+
+
+
+
+
+}
+
+#goToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 7%;
+  right: 20px;
+  background-color: #da2c25;
+  border: 2px solid #da2c25;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#goToTopBtn:hover {
+  background-color: white;
+  color: #da2c25;
+  border: 2px solid #da2c25;
+  transition: .6s;
+}
+
+@media only screen and (max-width: 600px) {
+  #goToTopBtn {
+      bottom: 50px;
+      right: 7px;
+      font-size: 14px;
+      padding: 8px;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sticky-element {
+  position: sticky;
+  top: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.content {
+  padding: 16px;
+} 
